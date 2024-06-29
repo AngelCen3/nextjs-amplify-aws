@@ -53,7 +53,7 @@ export default function App() {
               onChange={(e) => setNewTodoContent(e.target.value)}
               placeholder="Nueva tarea"
             />
-            <button onClick={createTodo}>Agregar</button>
+            <button onClick={createTodo}>Agrega</button>
           </div>
           <ul>
             {todos.map((todo) => (

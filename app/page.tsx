@@ -63,13 +63,6 @@ export default function App() {
             ))}
           </ul>
           <button onClick={signOut}>Cerrar Sesión</button>
-          <div>
-            🥳 App successfully hosted. Try creating a new todo.
-            <br />
-            <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
-              Review next steps of this tutorial.
-            </a>
-          </div>
         </main>
       )}
     </Authenticator>
